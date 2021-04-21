@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="layout_content_padding_small">8dp</dimen>
+    <dimen name="layout_content_padding_medium">16dp</dimen>
+    <dimen name="layout_content_padding_large">32dp</dimen>
+
+    <dimen name="content_indent_small">8dp</dimen>
+    <dimen name="content_indent_reverse_small">-8dp</dimen>
+    <dimen name="content_indent_medium">16dp</dimen>
+    <dimen name="content_padding_small">8dp</dimen>
+    <dimen name="content_padding_medium">16dp</dimen>
+    <dimen name="content_padding_large">32dp</dimen>
+
+    <dimen name="button_padding_small">8dp</dimen>
+    <dimen name="button_padding_medium">16dp</dimen>
+
+</resources>

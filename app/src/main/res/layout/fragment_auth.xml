@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/layout_content_padding_medium"
+    tools:context=".cleanarch.presentation.auth.AuthFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/auth_phone_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_ui_phone_24"
+        android:layout_marginBottom="@dimen/content_indent_medium">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/auth_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/prompt_phone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/auth_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_sign_in" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
