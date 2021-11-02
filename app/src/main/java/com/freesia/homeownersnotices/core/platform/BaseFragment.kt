@@ -5,7 +5,7 @@ import androidx.annotation.LayoutRes
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
 import com.freesia.homeownersnotices.R
-import com.freesia.homeownersnotices.core.exception.Failure
+import com.freesia.homeownersnotices.cleanarch.domain.entity.model.Failure
 import com.google.android.material.snackbar.Snackbar
 
 abstract class BaseFragment(@LayoutRes private val layoutId: Int) : Fragment(layoutId) {

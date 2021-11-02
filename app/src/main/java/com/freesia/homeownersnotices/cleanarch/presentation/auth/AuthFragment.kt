@@ -10,6 +10,7 @@ import com.freesia.homeownersnotices.core.platform.BaseFragment
 import com.freesia.homeownersnotices.databinding.FragmentAuthBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
+
 class AuthFragment : BaseFragment(R.layout.fragment_auth) {
 
     companion object {

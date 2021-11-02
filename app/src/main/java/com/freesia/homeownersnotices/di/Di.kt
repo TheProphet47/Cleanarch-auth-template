@@ -6,6 +6,8 @@ import com.freesia.homeownersnotices.cleanarch.domain.entity.UserManager
 import com.freesia.homeownersnotices.cleanarch.domain.repository.LoginRepository
 import com.freesia.homeownersnotices.cleanarch.domain.repository.MessagesRepository
 import com.freesia.homeownersnotices.cleanarch.domain.usecase.*
+import com.freesia.homeownersnotices.cleanarch.domain.usecase.impl.DomainGetMessagesUseCase
+import com.freesia.homeownersnotices.cleanarch.domain.usecase.impl.DomainLoginUseCase
 import com.freesia.homeownersnotices.cleanarch.presentation.auth.AuthViewModel
 import com.freesia.homeownersnotices.cleanarch.presentation.main.MainViewModel
 import com.freesia.homeownersnotices.cleanarch.presentation.root.StartViewModel
@@ -34,8 +36,8 @@ object Di {
         single<LoginRepository> { NetworkLoginRepository() }
         single<MessagesRepository> { NetworkMessagesRepository() }
 
-        single<LoginUseCase> { LoginUseCaseImpl(get()) }
-        single<GetMessagesUseCase> { GetMessagesUseCaseImpl(get()) }
+        single<LoginUseCase> { DomainLoginUseCase(get()) }
+        single<GetMessagesUseCase> { DomainGetMessagesUseCase(get()) }
     }
 
 

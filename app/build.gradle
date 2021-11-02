@@ -74,12 +74,16 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$v_navigation"
 
     // DI
-    implementation "org.koin:koin-core:$v_koin"
-    implementation "org.koin:koin-core-ext:$v_koin"
-    implementation "org.koin:koin-androidx-viewmodel:$v_koin"
+    implementation "io.insert-koin:koin-core:$v_koin"
+    implementation "io.insert-koin:koin-android:$v_koin"
+//    implementation "org.koin:koin-core:$v_koin"
+//    implementation "org.koin:koin-core-ext:$v_koin"
+//    implementation "org.koin:koin-androidx-viewmodel:$v_koin"
 
     // Log
     implementation "com.jakewharton.timber:timber:4.7.1"
+
+    implementation "android.arch.work:work-runtime:1.0.0-alpha02"
 
     // Testing
     testImplementation 'junit:junit:4.13.2'

@@ -1,4 +1,4 @@
-package com.freesia.homeownersnotices.core.exception
+package com.freesia.homeownersnotices.cleanarch.domain.entity.model
 
 /**
  * Base Class for handling errors/failures/exceptions.

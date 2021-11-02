@@ -7,7 +7,7 @@ import com.freesia.homeownersnotices.cleanarch.domain.entity.model.LoginResult
 import com.freesia.homeownersnotices.cleanarch.domain.usecase.LoginUseCase
 import com.freesia.homeownersnotices.cleanarch.presentation.toUiLoginFalse
 import com.freesia.homeownersnotices.cleanarch.presentation.toUiLoginTrue
-import com.freesia.homeownersnotices.core.exception.Failure
+import com.freesia.homeownersnotices.cleanarch.domain.entity.model.Failure
 import com.freesia.homeownersnotices.core.extension.mapWith
 import com.freesia.homeownersnotices.core.platform.BaseViewModel
 import kotlinx.coroutines.launch

@@ -14,7 +14,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
-import com.freesia.homeownersnotices.core.exception.Failure
+import com.freesia.homeownersnotices.cleanarch.domain.entity.model.Failure
 
 
 // RecyclerView

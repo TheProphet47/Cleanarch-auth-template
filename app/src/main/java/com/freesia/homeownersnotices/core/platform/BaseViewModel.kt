@@ -2,7 +2,7 @@ package com.freesia.homeownersnotices.core.platform
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.freesia.homeownersnotices.core.exception.Failure
+import com.freesia.homeownersnotices.cleanarch.domain.entity.model.Failure
 
 abstract class BaseViewModel : ViewModel() {
 
